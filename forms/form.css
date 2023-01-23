@@ -1,0 +1,8 @@
+.all-container{
+    min-height: 100vh;
+    background-image: url('/images/boys-gb287c90ee_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

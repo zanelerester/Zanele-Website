@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding-top: 10px;
+    background-color: rgba(165, 42, 42, 0.815);
+    color: white;
+}
+nav{
+    padding-left: 650px;
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    
+}
+nav a:hover{
+    background-color: violet;
+    
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+header span{
+    color: palevioletred;
+    font-family: cursive;
+}
+.container{
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(53, 16, 16);
+}
+.wrapper{
+    min-height: 60vh;
+    max-width: cover;
+    background-image: url('/images/child-g46783c4a9_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+}
+.wrapper h1 span{
+    color: palevioletred;
+    font-family: cursive;
+}
+.inner-wrapper{
+    min-height: 40vh;
+    background-color: rgba(165, 42, 42, 0.815);
+    max-width: 800px;
+    margin-left: 350px;
+    
+}
+.wrapper-content img{
+    width: 230px;
+    height: 200px;
+    float: left;
+
+}
+.wrapper-content h1{
+    text-decoration: underline;
+    color: white;
+}
+.btn{
+    background-color: red;
+    max-width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper h3{
+    font-family: cursive;
+}
+.services{
+    min-height: 100vh;
+    background-image: url('/images/students-g05790587c_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#pic-menu{
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.headings span{
+    color: palevioletred;
+    font-family: cursive;
+    font-size: 34px;
+}
+.coll{
+    width: 450px;
+    float: left;
+}
+.coll img{
+    width: 350px;
+}
+.col2{
+    width: 450px;
+    float: left;
+    
+}
+.col2 img{
+    width: 350px;
+    height: 250px;
+}
+.heading{
+    color: black;
+}
+.headings{
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+.backgr{
+    
+    min-height: 20vh;
+    min-width: 10vh;
+}
+button{
+    background-color: palevioletred;
+    width: 68px;
+    height: 40px;
+    font-family: serif;
+    box-sizing: border-box;
+    
+}
+.enroll{
+    min-height: 100vh;
+    background-image: url('/images/toys-gccf8d2fc3_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.enroll h1{
+    text-align: center;
+    padding-top: 60px;
+    color: blue;
+}
+.enroll h1 span{
+    color: palevioletred;
+    font-family: cursive;
+    font-size: 34px;
+
+}
+.enroll h2{
+    font-family: cursive;
+    color: white;
+    padding-left: 490px;
+    background-color: palevioletred;
+}
+.enroll-content{
+    padding-left: 100px;
+}
+#enra{
+    align-items: center;
+    margin-left: 520px;
+    font-size: 36px;
+    width: 180px;
+    height: 50px;
+}
+.about{
+    min-height: 100vh;
+    background-color: rgba(165, 42, 42, 0.815) ;
+}
+.about-content h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.about-content h1 span{
+    color: palevioletred;
+    font-family: cursive;
+}
+.about-content .image-container img{
+    width: 420px;
+    height: 300px;
+    float: left;
+    
+}
+.about-content .image-container p{
+    padding-left: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.end-footer img{
+    width: 30px;
+    height: 30px;
+
+}
+.end-footer{
+    text-align: center;
+    
+    
+}
+.image-container p{
+    font-size: 19px;
+}
+
+/* media queries*/
+@media only screen and (max-width: 700px){
+    nav{
+        padding-left: 650px;
+        font-size: 30px;
+        width: 100%;
+        background: rgba(165, 42, 42, 0.815);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav a{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .menu-icon{
+        display: block;
+    }
+
+}
